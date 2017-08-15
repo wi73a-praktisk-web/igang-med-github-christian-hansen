@@ -1,0 +1,1 @@
+console.log("Denne log sender direkte til terminalen/loggen");
