@@ -42,8 +42,8 @@ Hvordan man opretter et repository.
 9) Vælg en "License" ud fra dine ønsker, det er en god idé at læse lidt op på hvilke rettigheder man giver sig selv men også andre.
 10) Sidst men ikke mindst, tryk " Create Repository " du har nu oprettet dit eget repository.
 
-#Betingede sætninger, Operatorer og Løkker
-##Øvelse 6
+# Betingede sætninger, Operatorer og Løkker
+## Øvelse 6
 En if sætning fungere således at hvis man har en variabel
 ````javascript
 var skolekridt = "har_rigeligt";
