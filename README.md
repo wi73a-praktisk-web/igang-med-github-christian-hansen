@@ -45,7 +45,7 @@ Hvordan man opretter et repository.
 #Betingede sætninger, Operatorer og Løkker
 ##Øvelse 6
 En if sætning fungere således at hvis man har en variabel
-`````javascript
+````javascript
 var skolekridt = "har_rigeligt";
 ````
 så kan man bruge sin variabel til at få et resultat i sin log.
