@@ -84,3 +84,36 @@ switch (laeskedrik_02) {
 
 //Øvelse Betingelser 6
 //Se ReadMe
+
+//Øvelse Operatorer 1
+var tal_01 = 5;
+var tal_02 = 8;
+
+console.log(tal_01 + tal_02);
+console.log(tal_01 - tal_02);
+console.log(tal_01 * tal_02);
+console.log(tal_01 / tal_02);
+console.log(tal_01 % tal_02);
+console.log(++tal_01);
+console.log(--tal_02);
+
+//Øvelse Operatorer 2
+var tal_03 = 5;
+var tal_04 = 6;
+
+tal_03 += tal_04;
+console.log(tal_03);
+
+tal_03 -= tal_04;
+console.log(tal_03);
+
+tal_03 *= tal_04;
+console.log(tal_03);
+
+tal_03 /= tal_04;
+console.log(tal_03);
+
+tal_03 %= tal_04;
+console.log(tal_03);
+
+//Øvelse Operatorer 3
