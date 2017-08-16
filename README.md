@@ -41,3 +41,38 @@ Hvordan man opretter et repository.
 8) Vælg "Gitignore" ud fra hvilket sprog du skal til at kode i.
 9) Vælg en "License" ud fra dine ønsker, det er en god idé at læse lidt op på hvilke rettigheder man giver sig selv men også andre.
 10) Sidst men ikke mindst, tryk " Create Repository " du har nu oprettet dit eget repository.
+
+#Betingede sætninger, Operatorer og Løkker
+##Øvelse 6
+En if sætning fungere således at hvis man har en variabel
+´´´´ javascript
+var skolekridt = "har_rigeligt";
+´´´´
+så kan man bruge sin variabel til at få et resultat i sin log.
+det kunne f.eks se sådan her ud
+´´´´ javascript 
+var skolekridt == "har_rigeligt";
+
+if (skolekridt == "har_rigeligt") {
+    console.log('Der mangler ikke noget skolekridt');
+}
+´´´´
+hertil kan man så tilføje en else sætning. Hvis der ikke er nok skolekridt kan man få udskrevet i loggen at der mangler skolekridt, det kan se sådan her ud:
+´´´´ javascript
+var skolekridt = "mangler_skolekridt";
+
+if (skolekridt == "har_rigeligt") {
+    console.log('Der mangler ikke noget skolekridt');
+} else if (skolekridt == "mangler_skolekridt") {
+    console.log('Der mangler skolekridt');
+}
+´´´´
+Boolean = True / False
+String = Sætninger
+Integer = Tal
+
+= Det samme som variablen
+== Af lig med
++ Noget som er ens
+> Noget som er størrer
+< Noget som er mindre
