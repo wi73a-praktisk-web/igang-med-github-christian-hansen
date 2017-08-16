@@ -71,8 +71,8 @@ Boolean = True / False
 String = Sætninger
 Integer = Tal
 
-= Det samme som variablen
-== Af lig med
-+ Noget som er ens
-> Noget som er størrer
-< Noget som er mindre
+"=" Det samme som variablen
+"==" Af lig med
+"+" Noget som er ens
+">" Noget som er størrer
+"<" Noget som er mindre
