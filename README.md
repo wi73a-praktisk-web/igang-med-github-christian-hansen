@@ -45,20 +45,20 @@ Hvordan man opretter et repository.
 #Betingede sætninger, Operatorer og Løkker
 ##Øvelse 6
 En if sætning fungere således at hvis man har en variabel
-´´´´javascript
+`````javascript
 var skolekridt = "har_rigeligt";
-´´´´
+````
 så kan man bruge sin variabel til at få et resultat i sin log.
 det kunne f.eks se sådan her ud
-´´´´javascript 
+````javascript 
 var skolekridt == "har_rigeligt";
 
 if (skolekridt == "har_rigeligt") {
     console.log('Der mangler ikke noget skolekridt');
 }
-´´´´
+````
 hertil kan man så tilføje en else sætning. Hvis der ikke er nok skolekridt kan man få udskrevet i loggen at der mangler skolekridt, det kan se sådan her ud:
-´´´´javascript
+````javascript
 var skolekridt = "mangler_skolekridt";
 
 if (skolekridt == "har_rigeligt") {
@@ -66,7 +66,7 @@ if (skolekridt == "har_rigeligt") {
 } else if (skolekridt == "mangler_skolekridt") {
     console.log('Der mangler skolekridt');
 }
-´´´´
+````
 Boolean = True / False
 String = Sætninger
 Integer = Tal
