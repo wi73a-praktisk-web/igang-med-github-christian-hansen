@@ -117,3 +117,4 @@ tal_03 %= tal_04;
 console.log(tal_03);
 
 //Øvelse Operatorer 3
+
