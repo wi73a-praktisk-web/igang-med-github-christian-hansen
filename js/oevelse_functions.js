@@ -104,13 +104,32 @@ var dato = new Date();
 var birthday = new Date("07/09/93"); // Dato skrives i amerikansk format Måned - Dag - År
 var idol = ["Christian", "Hansen", 1993];
 var profil = function (p) {
-    return p[0] + " " + p[1] + ": Født " + p[2]; // Returnerer tekst-strengen "Peter Pedal: Født 1941"
+    return p[0] + " " + p[1] + ": Født " + p[2]; // Returnerer tekst-strengen "Christian Hansen: Født 1993"
 }
 
 console.log(profil(idol)); // Udskriver "Christian Hansen: Født 1993"
 console.log(dato.getFullYear() - birthday.getFullYear()); // Udskriver alder (fra 1993 til nuværende år)
 
+var profilopgave = function (p, id = 1) {
+var profil = "";
+if (id === -1) {
+    profil = "alle profiler\n";
+    p.forEach(function(elemen, index) {
+    element.forEach(function(item){
+        profil += '$(item)';
+    });
+    profil += "\n";
+}) else {
+    profil = "\nEn profil\n";
+    p[id].forEach(function(element, index) {
+        profil += element + '';
+    });
+});
+
+console.log(tekst);
+
 // Lommeregner 
+
 function calculator() {
     var result = 0;
     return {
@@ -133,3 +152,17 @@ calc.add(3);
 calc.sub(4);
 
 console.log(calc.result());
+
+//Funktion i funktion
+let eurokurs = function (kurs) {
+    return function (kroner) {
+        return kroner / kurs;
+    }
+}
+
+// eller en anden "smart" måde
+let smartEurokurs = kurs => kroner => kroner / kurs;
+
+let omregning = eurokurs(7.51);
+console.log('kr.', omregning(100).toFixed(2));
+console.log('kr.', omregning(500).toFixed(2));
