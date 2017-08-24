@@ -23,7 +23,14 @@
            starWars.innerHTML += '<h3>' + json.results[0].hair_color + '</h3>';
            starWars.innerHTML += '<h3>' + json.results[0].skin_color + '</h3>';
            starWars.innerHTML += '<h3>' + json.results[0].eye_color + '</h3>';
+           starWars.innerHTML += '<hr>';
+           var folks = json.results;
+           folks.forEach(function(element) {
+               starWars.innerHTML += `<p>${element.name} ${element.hair_color} ${element.skin_color} ${element.eye_color}<p>`;               
+           });
         })
+
+        
     </script>
 </body>
 </html>

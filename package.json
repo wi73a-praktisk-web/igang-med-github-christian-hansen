@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "testing server connectivity",
+  "main": "oevelse_betingelser_operatorer_loekker.js",
+  "scripts": {
+    "start": "nodemon js/oevelse_server.js"
+  },
+  "author": "me",
+  "license": "MIT"
+}

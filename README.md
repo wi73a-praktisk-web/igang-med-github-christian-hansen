@@ -67,12 +67,65 @@ if (skolekridt == "har_rigeligt") {
     console.log('Der mangler skolekridt');
 }
 ````
-Boolean = True / False
-String = Sætninger
-Integer = Tal
+# For, While & Do-While
 
-"=" Det samme som variablen
-"==" Af lig med
-"+" Noget som er ens
-">" Noget som er størrer
-"<" Noget som er mindre
+En For-løkke, er en løkke som kører et hvis antal gange, hvis der er sat en ende på.
+
+Eksempel:
+```javascript
+for (statement 1; statement 2; statement 3) {
+    Code der bliver kørt
+}
+```
+
+En While-løkke, er en løkke som kører, så længe at argumentet er lig med sandt. Hvis at argumentet bliver falsk, stopper løkken med at kører.
+
+Eksempel:
+```javascript
+while (true) {
+    Code er bliver kørt
+}
+```
+
+En Do-While-løkke, den præcis som en almindelig 'while-løkke', det eneste der er til forskel, er at den kører en kode, før while-løkken igangsættes.
+
+Eksempel:
+```javascript
+do {
+    Kode som bliver kørt
+}
+while(argument);
+```
+
+Bool / Boolean = True/False
+String = "Sætninger"
+Int / Integer = Tal som 1, 2, 3 osv.
+
+=  Erstatter det indhold som skulle være i en variablel
+
+== er en sammenlignings-operator (Er lig med)
+
+=== fungere på samme måde som '==' men med 3 === tjekker den også for om den er samme datatype.
+
+!= betyder hvis IKKE lig med.
+
+!== Betyder 'er ikke lig med' og 'ikke samme datatype
+> betyder Større end...
+
+< betyder Mindre end...
+
+>= betyder større end eller er lig med...
+
+<= betyder mindre end eller er lig med...
+
+? er en 'Ternary Operator' det er en "3-delt" operator, som bruges f.eks. ved: Betingelsen : Sand / Falsk
+
+&&  Betyder egentlig bare 'Og'. Det er JavaScripts svar på og-tegn
+|| er en 'Eller' Operator. Bruges hvis en betingelse, skal endten det ene eller det andet.
+
+!
+
+NPM = Node Package Manager (terminal: npm init) npm kan installeres globalt og lokalt.¨
+Globalt = gælder alle fremtidige projekter (npm install nodemon --global eller -G)
+Lokalt = gælder det pågældende projekt (npm install nodemon --save eller -S)
+

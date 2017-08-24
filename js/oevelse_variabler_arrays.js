@@ -97,3 +97,12 @@ var personer = [
 ];
 
 console.log(personer);
+
+for (var i = 1; i < 31; i++) {
+    console.log(i);
+    
+}
+
+var tekst = "hans bob har en cykel som er blå";
+console.log(tekst.slice(0,8));
+console.log(tekst.toUpperCase());
