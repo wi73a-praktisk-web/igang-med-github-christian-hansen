@@ -67,7 +67,7 @@ if (skolekridt == "har_rigeligt") {
     console.log('Der mangler skolekridt');
 }
 ````
-# For, While & Do-While
+# For, While, Do-While & ForEACH
 
 En For-løkke, er en løkke som kører et hvis antal gange, hvis der er sat en ende på.
 
@@ -97,6 +97,16 @@ do {
 while(argument);
 ```
 
+En ForEACH løkke, fungere på samme måde som en while og en for løkke. En ForEACH, kører så mange gange, som der er af værdier i et array.
+
+ForEACH ligger i arrayets data, ned i kassen "element".
+
+eksempel: Øvelse Del 1 Løkker 2
+````javascript
+for (var i = 1; i <= 25; i++) {
+    console.log(`Nummer: ${i}`);
+}
+````
 Bool / Boolean = True/False
 String = "Sætninger"
 Int / Integer = Tal som 1, 2, 3 osv.
@@ -120,12 +130,14 @@ Int / Integer = Tal som 1, 2, 3 osv.
 
 ? er en 'Ternary Operator' det er en "3-delt" operator, som bruges f.eks. ved: Betingelsen : Sand / Falsk
 
-&&  Betyder egentlig bare 'Og'. Det er JavaScripts svar på og-tegn
+& Er det første ikke sandt så spørger den, den næste, osv.
+&&  Betyder egentlig bare 'Og'. Det er JavaScripts svar på og-tegn. Er det første ikke sandt så spørger den ikke den næste.
+
 || er en 'Eller' Operator. Bruges hvis en betingelse, skal endten det ene eller det andet.
 
 !
 
+# Node Package Manager
 NPM = Node Package Manager (terminal: npm init) npm kan installeres globalt og lokalt.¨
 Globalt = gælder alle fremtidige projekter (npm install nodemon --global eller -G)
 Lokalt = gælder det pågældende projekt (npm install nodemon --save eller -S)
-

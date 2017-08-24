@@ -116,5 +116,70 @@ console.log(tal_03);
 tal_03 %= tal_04;
 console.log(tal_03);
 
-//Øvelse Operatorer 3
+//Øvelse Operatorer 3 & 4
+var tal_01 = 4;
+var tal_02 = 16;
 
+if (tal_01 <= 5 || tal_02 >= 5) {
+    console.log("Fedt, computeren ka' regne")
+}
+//Øvelse Operatorer 5
+// Se README for øvelse 5
+
+
+//Øvelse Del 1 Løkker 1
+var tal1 = 0;
+var tal2 = 1;
+do {
+    console.log(`tal: ${tal1}`);
+    tal1++;
+} while (tal1 <= 10);
+
+//Øvelse Del 1 Løkker 2
+for (var i = 1; i <= 25; i++) {
+    console.log(`Nummer: ${i}`);
+}
+
+var x = 1;
+while (x <= 25) {
+    console.log(`x = ${x}`);
+    x++;
+}
+
+var y = 1;
+do {
+    console.log(`y = ${y}`);
+    y++;
+} while (y <= 25);
+
+// //Øvelse Del 1 Løkker 3
+//  var year = new Date(2017);
+
+//  for (;year >= 1917; year--) {
+//      console.log(year);
+//  }
+
+//Øvelse Del 1 Løkker 4
+// Se README
+
+//Øvelse Del 2 Løkker 1
+var array_8 = ["Jørgen", "Jens", "Karl", "Børge", "Bo", "Kurt", "Gandi", "Viktor", "Jonas"];
+array_8.forEach(function (element) {
+    console.log(element);   
+});
+
+//Øvelse Del 2 Løkker 2
+var array_4 = ["Jørgen", "Jens", "Karl", "Børge"];
+array_4.forEach(function (element, index) {
+    console.log(index + " " + element);   
+});
+
+//Øvelse Del 2 Løkker 3
+var array_10 = [1,9,2,8,3,7,4,6,5,0];
+array_10.forEach(function(element, index) {
+    if (element + 1 >= array_10.lenght && element >= array_10[index + 1]){
+        console.log("Tallet er større eller lig med");
+    } else {
+        console.log("Tallet er mindre eller lig med");
+    }
+}, this);
