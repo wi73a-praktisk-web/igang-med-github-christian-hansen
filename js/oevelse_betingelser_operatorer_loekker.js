@@ -171,7 +171,7 @@ array_8.forEach(function (element) {
 //Øvelse Del 2 Løkker 2
 var array_4 = ["Jørgen", "Jens", "Karl", "Børge"];
 array_4.forEach(function (element, index) {
-    console.log(index + " " + element);   
+    console.log(index + " " + element);
 });
 
 //Øvelse Del 2 Løkker 3
@@ -182,4 +182,4 @@ array_10.forEach(function(element, index) {
     } else {
         console.log("Tallet er mindre eller lig med");
     }
-}, this);
+});
